@@ -51,7 +51,7 @@ const Timer = ({ appState, onHandleTimer }) => {
       return
     }
 
-    if (appState.status === 'finished') {
+    if (appState.appStatus === 'finished') {
       return
     }
 
